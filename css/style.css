@@ -167,7 +167,7 @@ body {
   height: 732px;
   top: -40px;
   left: 460px;
-  background: url("/images/Header/header-bg.svg") 0 0/100% 100%;
+  background: url("../images/Header/header-bg.svg") 0 0/100% 100%;
 }
 
 .header__body::after {
@@ -220,7 +220,7 @@ body {
   margin-right: -10px;
   width: 62px;
   height: 60.59px;
-  background: url("/images/Main/services/icons/1.svg") 0 0/100% no-repeat;
+  background: url("../images/Main/services/icons/1.svg") 0 0/100% no-repeat;
 }
 
 .second::before {
@@ -232,7 +232,7 @@ body {
   margin-right: -10px;
   width: 62px;
   height: 60.59px;
-  background: url("/images/Main/services/icons/2.svg") 0 0/100% no-repeat;
+  background: url("../images/Main/services/icons/2.svg") 0 0/100% no-repeat;
 }
 
 .third::before {
@@ -244,7 +244,7 @@ body {
   margin-right: -10px;
   width: 62px;
   height: 60.59px;
-  background: url("/images/Main/services/icons/3.svg") 0 0/100% no-repeat;
+  background: url("../images/Main/services/icons/3.svg") 0 0/100% no-repeat;
 }
 
 .services__serv-desc {
@@ -306,7 +306,7 @@ body {
   right: -30px;
   width: 24px;
   height: 24px;
-  background: url("/images/Main/portfolio/icons/codicon_arrow-right.svg") 0 0/100% 100%;
+  background: url("../images/Main/portfolio/icons/codicon_arrow-right.svg") 0 0/100% 100%;
 }
 
 .portfolio__more:hover {
@@ -357,7 +357,7 @@ body {
   transform: translateX(-50%);
   width: 50px;
   height: 50px;
-  background: url("/images/Main/clients/icons/slack-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/clients/icons/slack-icon.svg") 0 0/100% 100%;
 }
 
 .slack::after {
@@ -392,7 +392,7 @@ body {
   transform: translateX(-50%);
   width: 68.8px;
   height: 50px;
-  background: url("/images/Main/clients/icons/medium-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/clients/icons/medium-icon.svg") 0 0/100% 100%;
 }
 
 .medium::after {
@@ -427,7 +427,7 @@ body {
   transform: translateX(-50%);
   width: 50px;
   height: 50px;
-  background: url("/images/Main/clients/icons/microsoft-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/clients/icons/microsoft-icon.svg") 0 0/100% 100%;
 }
 
 .microsoft::after {
@@ -462,7 +462,7 @@ body {
   transform: translateX(-50%);
   width: 50px;
   height: 50px;
-  background: url("/images/Main/clients/icons/zeplin-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/clients/icons/zeplin-icon.svg") 0 0/100% 100%;
 }
 
 .zeplin::after {
@@ -497,7 +497,7 @@ body {
   transform: translateX(-50%);
   width: 43.85px;
   height: 50px;
-  background: url("/images/Main/clients/icons/shopify-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/clients/icons/shopify-icon.svg") 0 0/100% 100%;
 }
 
 .shopify::after {
@@ -551,7 +551,7 @@ body {
   top: 28%;
   left: 50%;
   transform: translateX(-50%);
-  background: url("/images/Main/testimonials/guys.png") 0 0/100% 100%;
+  background: url("../images/Main/testimonials/guys.png") 0 0/100% 100%;
   z-index: -2;
 }
 
@@ -600,7 +600,7 @@ body {
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
-  background: url("/images/Main/testimonials/quotes-icon.svg") 0 0/100% 100%;
+  background: url("../images/Main/testimonials/quotes-icon.svg") 0 0/100% 100%;
 }
 
 .testimonials__user {
@@ -873,13 +873,13 @@ body {
   margin-right: 17px;
   width: 17px;
   height: 18px;
-  background: url("/images/Main/contacts/file.svg") 0 0/100% 100%;
+  background: url("../images/Main/contacts/file.svg") 0 0/100% 100%;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .contact__link:hover {
-  background: url("/images/Main/contacts/file-blue.svg");
+  background: url("../images/Main/contacts/file-blue.svg");
 }
 
 #contact__file {
@@ -943,15 +943,15 @@ body {
 }
 
 .ball {
-  background: url("/images/Main/footer/1.svg") 0 0/100% 100%;
+  background: url("../images/Main/footer/1.svg") 0 0/100% 100%;
 }
 
 .inst {
-  background: url("/images/Main/footer/2.svg") 0 0/100% 100%;
+  background: url("../images/Main/footer/2.svg") 0 0/100% 100%;
 }
 
 .in {
-  background: url("/images/Main/footer/3.svg") 0 0/100% 100%;
+  background: url("../images/Main/footer/3.svg") 0 0/100% 100%;
 }
 
 @media (max-width: 1300px) {
