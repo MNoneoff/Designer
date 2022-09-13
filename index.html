@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <title>Designer</title>
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <a class="burger" href="#">
+      <span></span>
+    </a>
+    <div class="header__top">
+      <div class="header__top-inner">
+        <a class="header__logo logo" href="#">
+          <img src="images/Header/icons/logo-icon.svg" alt="">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#services">Services</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#portfolio">Works</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header__body">
+      <div class="header__body-left">
+        <div class="header__body-inner">
+          <div class="header__body-sub">Hello,</div>
+          <div class="header__body-title">Adam Zakob</div>
+          <div class="header__body-desc">a freelance UX Designer</div>
+          <a class="header__btn button" href="#contact">Let’s Talk</a>
+        </div>
+      </div>
+      <div class="header__body-right">
+        <img class="header__body-img" src="images/Header/user.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__inner">
+          <div class="services__article">
+            <div class="services__article-sub sub">Services</div>
+            <div class="services__article-line line"></div>
+            <div class="services__article-title title">What actually I love to do</div>
+          </div>
+          <ul class="services__serv">
+            <li class="services__serv-item">
+              <div class="services__serv-title first">UX Research</div>
+              <p class="services__serv-desc">
+                New demos are continually added and buying a single license for Mak gives
+                you access to all of
+                what's shown below, plus everything that will be added in the future.
+              </p>
+            </li>
+            <li class="services__serv-item">
+              <div class="services__serv-title second">Brand Design</div>
+              <p class="services__serv-desc">
+                New demos are continually added and buying a single license for Mak gives
+                you access to all of
+                what's shown below, plus everything that will be added in the future.
+              </p>
+            </li>
+            <li class="services__serv-item">
+              <div class="services__serv-title third">Web Development</div>
+              <p class="services__serv-desc">
+                New demos are continually added and buying a single license for Mak gives
+                you access to all of
+                what's shown below, plus everything that will be added in the future.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="background">
+        <div class="container">
+          <div class="portfolio__inner">
+            <div class="portfolio__article">
+              <div class="portfolio__article-title">
+                <div class="sub">Portfolio</div>
+                <div class="line"></div>
+                <div class="title">All Creative Projects</div>
+              </div>
+              <a class="portfolio__more" href="#">Explore More</a>
+            </div>
+            <div class="portfolio__img-box">
+              <img class="portfolio__img" src="images/Main/portfolio/images/1.jpg" alt="">
+              <img class="portfolio__img" src="images/Main/portfolio/images/2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients">
+      <div class="clients__article">
+        <div class="sub">Clients</div>
+        <div class="line"></div>
+        <div class="clients__title title">Big Deal With</div>
+      </div>
+      <ul class="clients__list">
+        <li class="clients__list-item slack">
+          <a class="clients__link" href="#">
+            <div class="clients__box"><span class="clients__name">Slack</span></div>
+          </a>
+        </li>
+        <li class="clients__list-item medium">
+          <a class="clients__link" href="#">
+            <div class="clients__box"><span class="clients__name">Medium</span></div>
+          </a>
+        </li>
+        <li class="clients__list-item microsoft">
+          <a class="clients__link" href="#">
+            <div class="clients__box"><span class="clients__name">Microsoft</span></div>
+          </a>
+        </li>
+        <li class="clients__list-item zeplin">
+          <a class="clients__link" href="#">
+            <div class="clients__box"><span class="clients__name">Zeplin</span></div>
+          </a>
+        </li>
+        <li class="clients__list-item shopify">
+          <a class="clients__link" href="#">
+            <div class="clients__box"><span class="clients__name">Shopify</span></div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials__article">
+        <div class="sub">Testimonials</div>
+        <div class="line"></div>
+        <div class="testimonials__title title">What People
+          Says</div>
+      </div>
+      <div class="testimonials__slider-wrapper">
+        <div class="testimonials__slider">
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__slide">
+            <div class="testimonials__slide-inner">
+              <blockquote class="testimonials__quote">
+                Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                it. This can be significantly more effective than traditional advertising methods as most consumers will
+                trust.
+              </blockquote>
+              <div class="testimonials__user">
+                <div class="testimonials__avatar">
+                  <img src="/images/Main/testimonials/avatar.jpg" alt="">
+                </div>
+                <div class="testimonials__info">
+                  <div class="testimonials__info-name">Michal John</div>
+                  <div class="testimonials__info-position">CEO of MZP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials__dots"></div>
+    </section>
+    <section class="blog" id="blog">
+      <div class="blog__container container">
+        <div class="blog__inner">
+          <div class="blog__article">
+            <div class="sub">Blog</div>
+            <div class="line"></div>
+            <div class="testimonials__title title">Get News <br>
+              Feeds</div>
+          </div>
+          <ul class="blog__list">
+            <li class="blog__list-item blog__list-item--first" id="first">
+              <a class="blog__list-link blog__list-link--first" href="#">
+                <div class="blog__img-box blog__img-box--first">
+                  <img src="images/Main/blog/1.jpg" alt="">
+                </div>
+                <div class="blog__info1 blog__info--first">
+                  <div class="blog__sub blog__sub--first">
+                    20 June/2020
+                  </div>
+                  <div class="blog__title blog__title--first">
+                    Technology is evolving rapidly. New <br> devices and applications.
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="blog__list-item" id="second">
+              <a class="blog__list-link" href="#">
+                <div class="blog__img-box">
+                  <img src="images/Main/blog/2.jpg" alt="">
+                </div>
+                <div class="blog__info">
+                  <div class="blog__sub">
+                    20 June/2020
+                  </div>
+                  <div class="blog__title">
+                    New devices and applications come to the market.
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="blog__list-item" id="third">
+              <a class="blog__list-link" href="#">
+                <div class="blog__img-box">
+                  <img src="images/Main/blog/3.jpg" alt="">
+                </div>
+                <div class="blog__info">
+                  <div class="blog__sub">
+                    20 June/2020
+                  </div>
+                  <div class="blog__title">
+                    Every day providing solutions to problems.
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__article-box">
+            <div class="contact__article">
+              <div class="sub">Contact Me</div>
+              <div class="line"></div>
+              <div class="contact__title title">Let me know if you want to talk
+                about a potential collaboration.
+                I'm available for freelance work.</div>
+            </div>
+            <a class="contact__mail" href="mailto:infoname@mail.com">infoname@mail.com</a>
+          </div>
+          <form class="contact__form" id="form">
+            <div class="contact__row">
+              <input class="contact__form-input" type="text" placeholder="What’s your name?" required>
+            </div>
+            <div class="contact__row">
+              <input class="contact__form-input" type="email" placeholder="Your email" required>
+            </div>
+            <div class="contact__row">
+              <input class="contact__form-input" type="text" placeholder="Tell me about your project" required>
+            </div>
+          </form>
+          <div class="contact__interactive-box">
+            <a href="#" class="contact__button button">Get a Quote</a>
+            <div class="contact__send-box">
+              <label class="contact__link" for="contact__file">
+                <input id="contact__file" type="file">
+              </label>
+              <button type="submit" class="contact__btn" form="form">
+                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M8.27372 0.711216C8.3608 0.62391 8.46426 0.554642 8.57815 0.50738C8.69205 0.460118 8.81415 0.435791 8.93747 0.435791C9.06078 0.435791 9.18288 0.460118 9.29678 0.50738C9.41068 0.554642 9.51413 0.62391 9.60122 0.711216L15.2262 6.33622C15.3135 6.4233 15.3828 6.52676 15.4301 6.64065C15.4773 6.75455 15.5016 6.87665 15.5016 6.99997C15.5016 7.12328 15.4773 7.24538 15.4301 7.35928C15.3828 7.47318 15.3135 7.57663 15.2262 7.66372L9.60122 13.2887C9.42518 13.4648 9.18642 13.5636 8.93747 13.5636C8.68851 13.5636 8.44975 13.4648 8.27372 13.2887C8.09768 13.1127 7.99878 12.8739 7.99878 12.625C7.99878 12.376 8.09768 12.1373 8.27372 11.9612L13.2368 6.99997L8.27372 2.03872C8.18641 1.95163 8.11714 1.84818 8.06988 1.73428C8.02262 1.62038 7.99829 1.49828 7.99829 1.37497C7.99829 1.25165 8.02262 1.12955 8.06988 1.01565C8.11714 0.901756 8.18641 0.798302 8.27372 0.711216Z"
+                    fill="#8643DC" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.5 7C0.5 6.75136 0.598772 6.5129 0.774588 6.33709C0.950403 6.16127 1.18886 6.0625 1.4375 6.0625H13.625C13.8736 6.0625 14.1121 6.16127 14.2879 6.33709C14.4637 6.5129 14.5625 6.75136 14.5625 7C14.5625 7.24864 14.4637 7.4871 14.2879 7.66291C14.1121 7.83873 13.8736 7.9375 13.625 7.9375H1.4375C1.18886 7.9375 0.950403 7.83873 0.774588 7.66291C0.598772 7.4871 0.5 7.24864 0.5 7Z"
+                    fill="#8643DC" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__title">Let’s be Friends</div>
+    <ul class="footer__logo-list">
+      <a href="#">
+        <li class="footer__logo-item ball"></li>
+      </a>
+      <a href="#">
+        <li class="footer__logo-item inst"></li>
+      </a>
+      <a href="#">
+        <li class="footer__logo-item in"></li>
+      </a>
+    </ul>
+  </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
