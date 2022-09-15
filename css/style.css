@@ -4,6 +4,7 @@ html,
 body {
   font-family: "Red Hat Display", sans-serif;
   color: #25202F;
+  overflow-x: hidden;
 }
 
 .container {
