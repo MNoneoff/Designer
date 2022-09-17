@@ -4,11 +4,13 @@ html,
 body {
   font-family: 'Red Hat Display', sans-serif;
   color: #25202F;
+  overflow-x: hidden;
 }
 
 .container {
+  max-width: 1100px;
   padding: 0 15px;
-  margin: 0 165px;
+  margin: 0 auto;
   height: 100%;
 }
 
@@ -40,7 +42,6 @@ body {
 
 // ----------------------------------------- HEADER -----------------------------------------
 .header {
-  margin: 22px 38px 0 165px;
   position: relative;
   margin-bottom: 127px;
 }
@@ -121,6 +122,19 @@ body {
   position: relative;
 }
 
+.header__btn::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: -350px;
+  right: -940px;
+  width: 372px;
+  height: 372px;
+  background: rgba(90, 248, 153, 0.7);
+  filter: blur(250px);
+  transform: rotate(134.4deg);
+}
+
 .header__btn::after {
   content: "";
   position: absolute;
@@ -162,28 +176,17 @@ body {
   width: 100%;
 }
 
-.header__body::before {
+.header::before {
   content: "";
   z-index: 1;
   position: absolute;
+  margin: 0 auto;
   width: 791px;
   height: 732px;
-  top: -40px;
-  left: 460px;
+  top: -50px;
+  left: 650px;
+  right: 0;
   background: url("../images/Header/header-bg.svg") 0 0 / 100% 100%;
-}
-
-.header__body::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  right: 170px;
-  top: 80px;
-  width: 372px;
-  height: 372px;
-  background: rgba(90, 248, 153, 0.7);
-  filter: blur(250px);
-  transform: rotate(134.4deg);
 }
 
 // ----------------------------------------- SERVICES -----------------------------------------
@@ -326,13 +329,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 // ----------------------------------------- CLIENTS -----------------------------------------
 .clients {
   padding: 0 195px 100px 165px;
-
 }
 
-.clients__article {}
+.clients__article {
+  margin-left: 15px;
+}
 
 .clients__title {
   max-width: 140px;
@@ -550,7 +555,12 @@ body {
 // ----------------------------------------- TESTIMONIALS -----------------------------------------
 .testimonials {
   position: relative;
-  padding: 0 169px 100px 165px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+.container-testimonials {
+  position: relative;
 }
 
 .testimonials::before {
@@ -566,7 +576,7 @@ body {
   z-index: -2;
 }
 
-.testimonials::after {
+.container-testimonials::after {
   content: "";
   width: 1440px;
   height: 722px;
@@ -578,6 +588,7 @@ body {
   transform: rotate(-180deg);
   z-index: -1;
 }
+
 .testimonials__slider-wrapper {
   display: flex;
   text-align: center;
@@ -910,7 +921,7 @@ body {
 
 // ----------------------------------------- FOOTER -----------------------------------------
 .footer {
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -943,7 +954,7 @@ body {
 }
 
 .ball {
-  background: url("../images/Main/footer/ball.svg") 0 0 / 100% 100%;
+  background: url("../images/Main/footer/1.svg") 0 0 / 100% 100%;
 }
 
 .inst {
@@ -977,8 +988,8 @@ body {
   }
 
   .header__btn::after,
-  .header__body::after,
-  .header__body::before {
+  .header__btn::after,
+  .header::before {
     content: none;
   }
 
@@ -1033,8 +1044,8 @@ body {
 
   .burger {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 10px;
+    right: 20px;
     z-index: 150;
     height: 70px;
     width: 70px;
@@ -1052,6 +1063,7 @@ body {
     right: 15px;
     box-shadow: 0 1px 8px #a1a1a1;
     background-color: #8643DC;
+
   }
 
   .burger span {
@@ -1072,6 +1084,7 @@ body {
     background-color: #25202F;
     border-radius: 3px;
   }
+
   // ----------------------------- HEADER ------------------------------------------
   .header {
     padding-top: 92px;
@@ -1137,14 +1150,17 @@ body {
     display: block;
     padding: 10px;
   }
+
   // ----------------------------- SERVICES ------------------------------------------
   .services__serv {
     align-items: flex-start;
   }
+
   // ----------------------------- CLIENTS ------------------------------------------
   .clients__list-item {
     margin-right: 20px;
   }
+
   // ----------------------------- BLOG ------------------------------------------
   .blog__list-item {
     margin-right: 20px;
@@ -1159,6 +1175,11 @@ body {
   .header__body-left {
     margin-right: 100px;
   }
+
+  .header__body-right {
+    margin-top: 10px;
+  }
+
   .header__body-img {
     transform: scale(.7);
   }
@@ -1225,6 +1246,7 @@ body {
     justify-content: center;
     text-align: center;
   }
+
   // ----------------------------- BLOG ------------------------------------------
   .blog {
     display: flex;
@@ -1268,10 +1290,12 @@ body {
   .container {
     margin: 0 auto;
   }
+
   // ----------------------------- HEADER ------------------------------------------
   .header__body-left {
     margin-right: 0px;
   }
+
   // ----------------------------- SERVICES ------------------------------------------
   .services__serv {
     align-items: center;
@@ -1280,7 +1304,12 @@ body {
 
 // ===================================== 800 ============================================
 @media (max-width: 800px) {
-    // ----------------------------- HEADER ------------------------------------------
+
+  // ----------------------------- HEADER ------------------------------------------
+  .header__body-left {
+    margin-top: 50px;
+  }
+
   .header__body-right {
     display: none;
   }
@@ -1293,13 +1322,22 @@ body {
     justify-content: center;
     text-align: center;
   }
+
   // ----------------------------- PORTFOLIO ------------------------------------------
   .portfolio__img {
     width: 320px;
   }
+
   // ----------------------------- SERVICES ------------------------------------------
   .services__serv {
     align-items: flex-start;
+  }
+}
+
+// ===================================== 780 ============================================
+@media (max-width: 780px) {
+  .footer {
+    padding-bottom: 50px;
   }
 }
 
@@ -1323,6 +1361,10 @@ body {
     margin-bottom: 40px;
     margin-right: 0;
   }
+  .third {
+    max-width: 150px;
+    width: 100%;
+  }
 
   // ----------------------------- TESTIMONIALS ------------------------------------------
   .testimonials::before {
@@ -1342,7 +1384,8 @@ body {
 
 // ===================================== 650 ============================================
 @media (max-width: 650px) {
-    // ----------------------------- PORTFOLIO ------------------------------------------
+
+  // ----------------------------- PORTFOLIO ------------------------------------------
   .portfolio__img {
     width: 320px;
   }
@@ -1354,10 +1397,17 @@ body {
   .portfolio__article-title {
     margin-right: 20px;
   }
+
+  // ----------------------------- CLIENTS ------------------------------------------
+  .clients__list-item {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
 @media (max-width: 500px) {
-    // ----------------------------- CONTACT ------------------------------------------
+
+  // ----------------------------- CONTACT ------------------------------------------
   .contact__article-box {
     flex-direction: column;
     margin-bottom: 40px;
@@ -1374,7 +1424,8 @@ body {
 
 // ===================================== 450 ============================================
 @media (max-width: 450px) {
-    // ----------------------------- PORTFOLIO ------------------------------------------
+
+  // ----------------------------- PORTFOLIO ------------------------------------------
   .portfolio__article {
     flex-direction: column;
     align-items: center;
@@ -1384,6 +1435,13 @@ body {
   .portfolio__article-title {
     align-items: center;
   }
+
+  // ----------------------------- CLIENTS ------------------------------------------
+  .clients__list-item {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
   // ----------------------------- TESTIMONIALS ------------------------------------------
   .testimonials__slider,
   .testimonials__slide {
@@ -1393,6 +1451,7 @@ body {
   .testimonials__quote {
     margin-bottom: 40px;
   }
+
   // ----------------------------- BLOG ------------------------------------------
   .blog__list-item--first {
     transform: scale(.8);

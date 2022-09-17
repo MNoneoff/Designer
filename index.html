@@ -17,43 +17,45 @@
 <body>
   <div class="overlay"></div>
   <header class="header">
-    <a class="burger" href="#">
-      <span></span>
-    </a>
-    <div class="header__top">
-      <div class="header__top-inner">
-        <a class="header__logo logo" href="#">
-          <img src="images/Header/icons/logo-icon.svg" alt="">
-        </a>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#">About</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#services">Services</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#portfolio">Works</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#blog">Blog</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="header__body">
-      <div class="header__body-left">
-        <div class="header__body-inner">
-          <div class="header__body-sub">Hello,</div>
-          <div class="header__body-title">Adam Zakob</div>
-          <div class="header__body-desc">a freelance UX Designer</div>
-          <a class="header__btn button" href="#contact">Let’s Talk</a>
+    <div class="container">
+      <a class="burger" href="#">
+        <span></span>
+      </a>
+      <div class="header__top">
+        <div class="header__top-inner">
+          <a class="header__logo logo" href="#">
+            <img src="images/Header/icons/logo-icon.svg" alt="">
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#contact">About</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#services">Services</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#portfolio">Works</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#blog">Blog</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="header__body-right">
-        <img class="header__body-img" src="images/Header/user.png" alt="">
+      <div class="header__body">
+        <div class="header__body-left">
+          <div class="header__body-inner">
+            <div class="header__body-sub">Hello,</div>
+            <div class="header__body-title">Adam Zakob</div>
+            <div class="header__body-desc">a freelance UX Designer</div>
+            <a class="header__btn button" href="#contact">Let’s Talk</a>
+          </div>
+        </div>
+        <div class="header__body-right">
+          <img class="header__body-img" src="images/Header/user.png" alt="">
+        </div>
       </div>
     </div>
   </header>
@@ -108,167 +110,177 @@
               <a class="portfolio__more" href="#">Explore More</a>
             </div>
             <div class="portfolio__img-box">
-              <img class="portfolio__img" src="images/Main/portfolio/images/1.jpg" alt="">
-              <img class="portfolio__img" src="images/Main/portfolio/images/2.jpg" alt="">
+              <img class="portfolio__img" src="images/Main/portfolio/images/1-test.png" alt="">
+              <img class="portfolio__img" src="images/Main/portfolio/images/2-test.png" alt="">
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="clients">
-      <div class="clients__article">
-        <div class="sub">Clients</div>
-        <div class="line"></div>
-        <div class="clients__title title">Big Deal With</div>
+      <div class="container">
+        <div class="clients__article">
+          <div class="sub">Clients</div>
+          <div class="line"></div>
+          <div class="clients__title title">Big Deal With</div>
+        </div>
+        <ul class="clients__list">
+          <li class="clients__list-item slack">
+            <a class="clients__link" href="#">
+              <div class="clients__box"><span class="clients__name">Slack</span></div>
+            </a>
+          </li>
+          <li class="clients__list-item medium">
+            <a class="clients__link" href="#">
+              <div class="clients__box"><span class="clients__name">Medium</span></div>
+            </a>
+          </li>
+          <li class="clients__list-item microsoft">
+            <a class="clients__link" href="#">
+              <div class="clients__box"><span class="clients__name">Microsoft</span></div>
+            </a>
+          </li>
+          <li class="clients__list-item zeplin">
+            <a class="clients__link" href="#">
+              <div class="clients__box"><span class="clients__name">Zeplin</span></div>
+            </a>
+          </li>
+          <li class="clients__list-item shopify">
+            <a class="clients__link" href="#">
+              <div class="clients__box"><span class="clients__name">Shopify</span></div>
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="clients__list">
-        <li class="clients__list-item slack">
-          <a class="clients__link" href="#">
-            <div class="clients__box"><span class="clients__name">Slack</span></div>
-          </a>
-        </li>
-        <li class="clients__list-item medium">
-          <a class="clients__link" href="#">
-            <div class="clients__box"><span class="clients__name">Medium</span></div>
-          </a>
-        </li>
-        <li class="clients__list-item microsoft">
-          <a class="clients__link" href="#">
-            <div class="clients__box"><span class="clients__name">Microsoft</span></div>
-          </a>
-        </li>
-        <li class="clients__list-item zeplin">
-          <a class="clients__link" href="#">
-            <div class="clients__box"><span class="clients__name">Zeplin</span></div>
-          </a>
-        </li>
-        <li class="clients__list-item shopify">
-          <a class="clients__link" href="#">
-            <div class="clients__box"><span class="clients__name">Shopify</span></div>
-          </a>
-        </li>
-      </ul>
     </section>
     <section class="testimonials">
-      <div class="testimonials__article">
-        <div class="sub">Testimonials</div>
-        <div class="line"></div>
-        <div class="testimonials__title title">What People
-          Says</div>
-      </div>
-      <div class="testimonials__slider-wrapper">
-        <div class="testimonials__slider">
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
-                </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
-                </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
+      <div class="container container-testimonials">
+        <div class="testimonials__article">
+          <div class="sub">Testimonials</div>
+          <div class="line"></div>
+          <div class="testimonials__title title">What People
+            Says</div>
+        </div>
+        <div class="testimonials__slider-wrapper">
+          <div class="testimonials__slider">
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
-                </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
-                </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
-                </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="testimonials__slide">
-            <div class="testimonials__slide-inner">
-              <blockquote class="testimonials__quote">
-                Quote testimonials demonstrate support for your product or feature from a user who has experience with
-                it. This can be significantly more effective than traditional advertising methods as most consumers will
-                trust.
-              </blockquote>
-              <div class="testimonials__user">
-                <div class="testimonials__avatar">
-                  <img src="images/Main/testimonials/avatar.jpg" alt="">
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
                 </div>
-                <div class="testimonials__info">
-                  <div class="testimonials__info-name">Michal John</div>
-                  <div class="testimonials__info-position">CEO of MZP</div>
+              </div>
+            </div>
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__slide">
+              <div class="testimonials__slide-inner">
+                <blockquote class="testimonials__quote">
+                  Quote testimonials demonstrate support for your product or feature from a user who has experience with
+                  it. This can be significantly more effective than traditional advertising methods as most consumers
+                  will
+                  trust.
+                </blockquote>
+                <div class="testimonials__user">
+                  <div class="testimonials__avatar">
+                    <img src="images/Main/testimonials/avatar.jpg" alt="">
+                  </div>
+                  <div class="testimonials__info">
+                    <div class="testimonials__info-name">Michal John</div>
+                    <div class="testimonials__info-position">CEO of MZP</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="testimonials__dots"></div>
       </div>
-      <div class="testimonials__dots"></div>
     </section>
     <section class="blog" id="blog">
       <div class="blog__container container">
